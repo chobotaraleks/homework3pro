@@ -5,3 +5,7 @@ public class Converter {
         return (fahrenheit - 32) * 5 / 9;
     }
 }
+
+public static double celsiusToFahrenheit(double celsius) {
+    return (celsius * 9 / 5) + 32;
+}
